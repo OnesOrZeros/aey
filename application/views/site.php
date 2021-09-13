@@ -86,14 +86,12 @@
                         </ul>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col third">
-                        <p class="p-small">Request Quote</p>
-                        <a href="aey@aey-group.com"><strong>aey@aey-group.com</strong></a>
-                        <div class="form-group">
-                            <input type="email" name="email" class="form-control-input" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Submit</button>
-                        </div>
+                    <h6>Links</h6>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
+                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
+                            <li>Menu: <a class="page-scroll" href="<?php echo site_url('Home')?>">Home</a>,  <a class="page-scroll" href="<?php echo site_url('Home/services')?>">Services</a>, <a class="page-scroll" href="<?php echo site_url('Home/contacts')?>">Contact</a></li>
+                        </ul>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
