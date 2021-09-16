@@ -124,14 +124,14 @@
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
-        <img src="<?php echo base_url(); ?>/resources/images/up-arrow.png" alt="alternative">
+        <img src="<?php echo base_url(); ?>resources/images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
     	
     <!-- Scripts -->
-    <script src="<?php echo base_url(); ?>/resources/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="<?php echo base_url(); ?>/resources/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="<?php echo base_url(); ?>/resources/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="<?php echo base_url(); ?>/resources/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="<?php echo base_url(); ?>resources/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="<?php echo base_url(); ?>resources/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="<?php echo base_url(); ?>resources/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="<?php echo base_url(); ?>resources/js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
