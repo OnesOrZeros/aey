@@ -34,7 +34,7 @@
 <body>
     
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation" style="background: #2b2b4f;">
         <div class="container">
 
             <!-- Image Logo -->
@@ -47,16 +47,16 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo site_url('Home')?>">Home</a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo base_url()?>home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('Home/services')?>">Our Services</a>
+                        <a class="nav-link" href="<?php echo base_url()?>services">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('Home/about')?>">About Us</a>
+                        <a class="nav-link" href="<?php echo base_url()?>about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo site_url('Home/contacts')?>">Contact Us</a>
+                        <a class="nav-link" href="<?php echo base_url()?>contacts">Contact Us</a>
                     </li>
                 </ul>
             </div> <!-- end of navbar-collapse -->

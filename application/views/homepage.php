@@ -8,7 +8,7 @@
                 <div class="col-lg-6">
                     <div class="button-container">
                         <a class="btn-solid-lg page-scroll" href="#intro">Discover</a>
-                        <a class="btn-outline-lg page-scroll" href="<?php echo site_url('Home/contacts')?>">Contact</a>
+                        <a class="btn-outline-lg page-scroll" href="<?php echo site_url('contacts')?>">Contact</a>
                     </div> <!-- end of button-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

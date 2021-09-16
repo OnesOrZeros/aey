@@ -6,6 +6,17 @@ class Home extends CI_Controller {
  * functions enabling the header and footer to appear in every web page created
  * functions to show the title of the page currently on display on the tab
  */
+
+		public function view($page = 'homepage'){
+			if(!file_exists(APPPATH.'views/'.$page.'.php')){
+				show_404();
+			}
+
+			$data['title'] = ucfirst($page .'| AEY');
+			$data ['view_page'] = ucfirst($page);
+			$this->load->view(''.$page,$data);
+		}
+
 	public function index()
 	{
 		$data['title'] = 'Home | Welcome to AEY';
@@ -49,7 +60,7 @@ class Home extends CI_Controller {
 				
 				// Set  message
 				$this->session->set_flashdata('added_contact', 'You have sent your message successfully');
-				redirect('Home');
+				redirect('home');
 			}	
 		
 	}
@@ -90,19 +101,24 @@ class Home extends CI_Controller {
 
 		</table>');
 
+		
+
+
 		try{
 			$this->email->send();
 			$message = 'Email Sent, We will be in touch ASAP.';
+			//if the email is sent successfully the client's information is saved in the database
+			$this->contact_model->add_contact();
 			$data = array(
 				'message' => $message
 			);
-			$this->load->view('contact_us.php', $data);
+			redirect('home');
 		} catch (Exception $e) {
 			$message = 'Email not sent! Please try again.';
 			$data = array(
 				'message' => $message
 			);
-			$this->load->view('contact_us.php', $data);
+		
 		}
 
 	}

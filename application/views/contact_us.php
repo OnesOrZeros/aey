@@ -16,7 +16,7 @@
                 <div class="col-lg-10 offset-lg-1">
 
                     <!-- Contact Form -->
-                    <?php echo form_open('home/contacts')?>
+                    <?php echo form_open('home/sendcontactmail')?>
                         <div class="form-group">
                             <input type="text" name="name" class="form-control-input" placeholder="Name" required>
                         </div>
