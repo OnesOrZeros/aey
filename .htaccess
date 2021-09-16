@@ -1,5 +1,10 @@
+
+
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
 RewriteEngine on
-RewriteCond $1 !^(index\.php|assets|resources|img|vendor|images|js|css|upload|favicon.png)
-RewriteCond %(REQUEST_FILENAME) !-f
-RewriteCond %(REQUEST_FILENAME) !-d
-RewriteRule ^(.*)$ ./index.php/$1 [L]
+RewriteCond $1 !^(index\.php|images|resources|img|vendor|images|js|webfonts|css|upload|favicon.png)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
