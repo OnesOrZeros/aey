@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'www.aey-group.com',
+	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'H@|<ing2020',
 	'database' => 'aey',
