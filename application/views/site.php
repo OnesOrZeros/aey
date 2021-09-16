@@ -28,13 +28,13 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>/resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>/resources/css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>/resources/css/swiper.css" rel="stylesheet">
-	<link href="<?php echo base_url(); ?>/resources/css/styles.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>resources/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>resources/css/swiper.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>resources/css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="<?php echo base_url(); ?>/resources/images/favicon.png">
+    <link rel="icon" href="<?php echo base_url(); ?>resources/images/favicon.png">
 </head>
 <body>
     
