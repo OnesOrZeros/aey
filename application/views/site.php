@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
+
     <!-- SEO Meta Tags -->
     <meta name="description" content="Your description">
     <meta name="author" content="Your name">
+
+    <meta content="AEY-GROUP software-development web-development android-development graphics-design ui-ux home-automation hosting data-analytics IT-consultancy" name="keywords">
+    <meta content="AEY-GROUP is a software development company that offer software related solution to businesses and individuals." name="description">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
 	<meta property="og:site_name" content="" /> <!-- website name -->
