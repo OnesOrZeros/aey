@@ -38,7 +38,7 @@ class Home extends CI_Controller {
 		$data['title'] = 'Services | AEY';
 		$data ['view_page'] = 'services';
 
-		$this->load->view('services', $data);
+		$this->load->view('site', $data);
 	}
 
 	/**function to govern the keying-in of the client's contacts and message to request a quotation  */
