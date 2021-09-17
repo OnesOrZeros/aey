@@ -14,7 +14,7 @@ class Home extends CI_Controller {
 
 			$data['title'] = ucfirst($page .'| AEY');
 			$data ['view_page'] = ucfirst($page);
-			$this->load->view(''.$page,$data);
+			$this->load->view('site',$data);
 		}
 
 	public function index()
