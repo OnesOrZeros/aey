@@ -1,11 +1,8 @@
+RewriteEngine On
 
+RewriteCond $1 !^(index\.php|resources|webfonts|images|js|css|upload|favicon.png)
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-d
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  #RewriteBase /
-  RewriteCond $1 !^(index\.php|resources|webfonts|images|js|css|upload|favicon.png)
-  RewriteCond %(REQUEST_FILENAME) !-f
-  RewriteCond %(REQUEST_FILENAME) !-d
-  
-  RewriteRule ^(.*)$ ./index.php/$1 [L]
-</IfModule>
+RewriteRule ^(.*)$ ./index.php/$1 [L]
+
