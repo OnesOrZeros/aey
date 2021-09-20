@@ -110,7 +110,7 @@ class Home extends CI_Controller {
 			$this->email->send();
 			$message = 'Email Sent, We will be in touch ASAP.';
 			//if the email is sent successfully the client's information is saved in the database
-			//$this->contact_model->add_contact();
+			$this->contact_model->add_contact();
 			$data = array(
 				'message' => $message
 			);
