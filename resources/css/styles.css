@@ -1119,8 +1119,8 @@ a:hover {
 	
 	.footer .footer-col.third {
 		display: inline-block;
-		width: 224px;
-		text-align: right;
+		width: 320px;
+		margin-right: 1.75rem;
 		vertical-align: top;
 	}
 

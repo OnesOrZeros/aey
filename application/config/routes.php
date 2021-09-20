@@ -8,6 +8,7 @@ $route['home'] = 'home/index';
 $route['services'] = 'home/services';
 $route['contacts'] = 'home/contacts';
 $route['about'] = 'home/about';
+$route['default_controller'] = 'home/index';
 
 $route['default_controller'] = 'home/index';
 
