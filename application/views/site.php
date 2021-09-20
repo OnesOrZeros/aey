@@ -73,26 +73,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="footer-col first">
-                        <h6>About AEY-GROUP</h6>
-                        <p class="p-small">Our team consists of all round individuals and consultants with vast experiences in the different verticals in IT always collaborating to ensure client needs are met.</p>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col second">
-                        <h6>Links</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a class="page-scroll" href="<?php echo site_url('Home')?>">Home</a>,  <a class="page-scroll" href="<?php echo site_url('Home/services')?>">Services</a>, <a class="page-scroll" href="<?php echo site_url('Home/contacts')?>">Contact</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col third">
-                    <h6>Links</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a class="page-scroll" href="<?php echo site_url('Home')?>">Home</a>,  <a class="page-scroll" href="<?php echo site_url('Home/services')?>">Services</a>, <a class="page-scroll" href="<?php echo site_url('Home/contacts')?>">Contact</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -105,6 +85,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                <p>Menu: <a class="page-scroll" href="<?php echo base_url()?>home">Home</a>,  <a class="page-scroll" href="<?php echo base_url()?>services">Services</a>, <a class="page-scroll" href="<?php echo base_url()?>about">About Us</a>, <a class="page-scroll" href="<?php echo base_url()?>contact_us">Contact</a></p>
                     <p class="p-small">Copyright © <a href="<?php echo site_url('Home')?>">aey-group</a></p>
                 </div> 
                 

@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Let us know about your project</h2>
-                    <p class="p-heading">Of will at sell well at as. Too want but tall nay like old removing yourself today</p>
+                    <h2 class="h2-heading">We'd love to hear from you!</h2>
+                    <p class="p-heading">Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
                     <ul class="list-unstyled li-space-lg">
                         <li><i class="fas fa-map-marker-alt"></i> &nbsp;AEY, Nairobi, KENYA</li>
                         <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:+254 725 807 288">+254 725 807 288</a></li>
