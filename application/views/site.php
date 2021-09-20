@@ -61,7 +61,7 @@
                         <a class="nav-link" href="<?php echo base_url()?>about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url()?>contact_us">Contact Us</a>
+                        <a class="nav-link" href="<?php echo base_url()?>contacts">Contact Us</a>
                     </li>
                 </ul>
             </div> <!-- end of navbar-collapse -->
