@@ -90,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                <p>Menu: <a class="page-scroll" href="<?php echo base_url()?>home">Home</a>,  <a class="page-scroll" href="<?php echo base_url()?>services">Services</a>, <a class="page-scroll" href="<?php echo base_url()?>about">About Us</a>, <a class="page-scroll" href="<?php echo base_url()?>contact_us">Contact</a></p>
+                <p>Menu: <a class="page-scroll" href="<?php echo base_url()?>home">Home</a> - <a class="page-scroll" href="<?php echo base_url()?>services">Services</a> - <a class="page-scroll" href="<?php echo base_url()?>about">About Us</a> - <a class="page-scroll" href="<?php echo base_url()?>contact_us">Contact</a></p>
                     <p class="p-small">Copyright © <a href="<?php echo site_url('Home')?>">aey-group</a></p>
                 </div> 
                 
