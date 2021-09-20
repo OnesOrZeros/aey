@@ -102,6 +102,7 @@
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
+<<<<<<< HEAD
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
@@ -109,6 +110,9 @@
     </button>
     <!-- end of back to top button -->
     	
+=======
+    
+>>>>>>> master
     <!-- Scripts -->
     <script src="<?php echo base_url(); ?>resources/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="<?php echo base_url(); ?>resources/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
