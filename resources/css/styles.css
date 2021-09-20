@@ -1030,52 +1030,7 @@ a:hover {
 	/* end of project 1 */
 	
 
-	/* Project 2 */
-	.basic-3 .text-container {
-		margin-left: 2rem;
-	}
 	
-	.basic-3 .image-container {
-		margin-bottom: 0;
-	}
-	/* end of project 2 */
-
-
-	/* Details Modal */
-	/* Stops body and navbar shift on modal open */
-	body.modal-open {
-		overflow-y: scroll !important;
-		padding-right: 0 !important;
-	}
-
-	body.modal-open .navbar {
-		padding-right: 0 !important;
-	}
-	/* end of stops body and navbar shift on modal open */
-
-	.modal {
-		padding-right: 0 !important;
-	}
-
-	.modal-dialog {
-		margin-top: 120px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
-	.modal-content .image-container {
-		margin-bottom: 0;
-	}
-	/* end of details modal */
-
-
-	/* Project 3 */
-	.basic-4 .text-container {
-		margin-right: 2rem;
-		margin-bottom: 0;
-	}
-	/* end of project 3 */
-
 
 	/* Services */
 	.cards-1 .card {
