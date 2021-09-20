@@ -7,15 +7,6 @@ class Home extends CI_Controller {
  * functions to show the title of the page currently on display on the tab
  */
 
-		public function view($page = 'homepage'){
-			if(!file_exists(APPPATH.'views/'.$page.'.php')){
-				show_404();
-			}
-
-			$data['title'] = ucfirst($page .'| AEY');
-			$data ['view_page'] = ucfirst($page);
-			$this->load->view('site',$data);
-		}
 
 	public function index()
 	{
@@ -33,6 +24,15 @@ class Home extends CI_Controller {
 		$this->load->view('site', $data);
 	}
 
+	
+	public function success()
+	{
+		$data['title'] = 'Message sent | AEY';
+		$data ['view_page'] = 'success_page';
+
+		$this->load->view('site', $data);
+	}
+
 	public function services()
 	{
 		$data['title'] = 'Services | AEY';
@@ -41,6 +41,7 @@ class Home extends CI_Controller {
 		$this->load->view('site', $data);
 	}
 
+	
 	/**function to govern the keying-in of the client's contacts and message to request a quotation  */
 	public function contacts()
 	{
@@ -64,6 +65,7 @@ class Home extends CI_Controller {
 			}	
 		
 	}
+
 
 	public function sendcontactmail()
 	{
@@ -108,11 +110,11 @@ class Home extends CI_Controller {
 			$this->email->send();
 			$message = 'Email Sent, We will be in touch ASAP.';
 			//if the email is sent successfully the client's information is saved in the database
-			$this->contact_model->add_contact();
+			//$this->contact_model->add_contact();
 			$data = array(
 				'message' => $message
 			);
-			redirect('home');
+			redirect('success');
 		} catch (Exception $e) {
 			$message = 'Email not sent! Please try again.';
 			$data = array(
