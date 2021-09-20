@@ -1201,43 +1201,6 @@ a:hover {
 	/* end of introduction */
 
 
-	/* Project 1 */
-	.basic-2 .text-container {
-		margin-top: 4.25rem;
-	}
-
-	.basic-2 .image-container {
-		margin-left: 3.375rem;
-	}
-	/* end of project 1 */
-
-
-	/* Project 2 */
-	.basic-3 .text-container {
-		margin-top: 2.75rem;
-	}
-	/* end of project 2 */
-
-
-	/* Details Modal */
-	.modal-content {
-		padding-right: 2rem;
-		padding-left: 2rem;
-	}
-	/* end of details modal */
-
-
-	/* Project 3 */
-	.basic-4 .text-container {
-		margin-top: 3.25rem;
-	}
-
-	.basic-4 .image-container {
-		margin-left: 3.375rem;
-	}
-	/* end of project 3 */
-
-
 	/* Services */
 	.cards-1 .card {
 		width: 352px;
@@ -1260,38 +1223,6 @@ a:hover {
 		margin-left: 3.5rem;
 	}
 	/* end of about */
-
-
-	/* Testimonials */
-	.slider-1 .quotes-decoration {
-		left: 170px;
-	}
-
-	.slider-1 .slider-container {
-		width: 82%;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	/* end of testimonials */
-
-
-	/* Team */
-	.cards-2 .card {
-		display: inline-block;
-		width: 256px;
-		vertical-align: top;
-	}
-	
-	.cards-2 .card:nth-of-type(4n+2) {
-		margin-left: 1.5rem;
-		margin-right: 0.75rem;
-	}
-
-	.cards-2 .card:nth-of-type(4n+3) {
-		margin-left: 0.75rem;
-		margin-right: 1.5rem;
-	}
-	/* end of team */
 
 
 	/* Contact */
