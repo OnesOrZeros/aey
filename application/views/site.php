@@ -91,7 +91,7 @@
                 
                 <div class="col-lg-12">
                     <p class="p-small">Distributed by :<a href="<?php echo site_url('Home')?>">AEY GROUP</a></p>
-                </div> <<!-- end of col -->
+                </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
