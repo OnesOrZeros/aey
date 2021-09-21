@@ -71,7 +71,8 @@ class Home extends CI_Controller {
 	{
 //$to = "info@finsys-group.com";
         $to = "kiplingmarich@gmail.com";
-		$from = "comms@finsys-group.com";
+		//$from = "comms@finsys-group.com";
+		$from = "kelvinkiprotich45@gmail.com";
 		$title = "INQUIRY FROM: ";
 
 		$name = $this->input->post("name");
@@ -79,13 +80,19 @@ class Home extends CI_Controller {
 		$mobile = $this->input->post("mobile");
 		$text = $this->input->post("message");
 
-		$this->load->library('email');		
+		$this->load->library('email');
+
 		$config['protocol'] = 'smtp';
-		$config['smtp_host'] = 'finsys-group.com';
-		$config['smtp_port'] = '465';
+        $config['smtp_crypto'] = 'tls';
+        $config['smtp_host'] = 'smtp.gmail.com';    
+        $config['smtp_port'] = '587';
+
+		//$config['protocol'] = 'smtp';
+		//$config['smtp_host'] = 'finsys-group.com';
+		//$config['smtp_port'] = '465';
 		$config['smtp_user'] = $from;
-		$config['smtp_pass'] = 'D%bEPUE523yR';
-		$config['smtp_crypto'] = 'ssl';
+		$config['smtp_pass'] = 'H@|<ing is H@|<ing';
+		//$config['smtp_crypto'] = 'ssl';
 		$config['charset'] = 'iso-8859-1';
 		$config['wordwrap'] = TRUE;
 				
