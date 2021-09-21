@@ -69,8 +69,10 @@ class Home extends CI_Controller {
 
 	public function sendcontactmail()
 	{
-		$to = "info@finsys-group.com";
+//$to = "info@finsys-group.com";
+        $to = "kiplingmarich@gmail.com";
 		$from = "comms@finsys-group.com";
+		$title = "INQUIRY FROM: ";
 
 		$name = $this->input->post("name");
 		$email = $this->input->post("email");
@@ -95,12 +97,13 @@ class Home extends CI_Controller {
 		$this->email->set_mailtype("html");
 		$this->email->from($email);
 		$this->email->to($to);
+		$this->email->subject($title. " ". $name);
 		$this->email->message('
 		<table style="width: 100%">
 			<tr><td>User Name: ' . $name .'</td></tr>
 			<tr><td>User Email: ' . $email . '</td></tr>
-			<tr><td>User Email: ' . $mobile . '</td></tr>
-			<tr><td>User Email: ' . $text . '</td></tr>
+			<tr><td>User Mobile: ' . $mobile . '</td></tr>
+			<tr><td>User Message: ' . $text . '</td></tr>
 		</table>');
 
 
