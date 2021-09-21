@@ -88,9 +88,6 @@ class Home extends CI_Controller {
 		$config['smtp_crypto'] = 'ssl';
 		$config['charset'] = 'iso-8859-1';
 		$config['wordwrap'] = TRUE;
-		$headers = 'MIME-Version: 1.0' . "\r\n";
-
-		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 				
 		$this->email->initialize($config);
 		$this->email->set_newline("\r\n");
