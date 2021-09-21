@@ -90,18 +90,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                <p>Menu: <a class="page-scroll" href="<?php echo base_url()?>home">Home</a>,  <a class="page-scroll" href="<?php echo base_url()?>services">Services</a>, <a class="page-scroll" href="<?php echo base_url()?>about">About Us</a>, <a class="page-scroll" href="<?php echo base_url()?>contact_us">Contact</a></p>
+                <p>Menu: <a class="page-scroll" href="<?php echo base_url()?>home">Home</a> - <a class="page-scroll" href="<?php echo base_url()?>services">Services</a> - <a class="page-scroll" href="<?php echo base_url()?>about">About Us</a> - <a class="page-scroll" href="<?php echo base_url()?>contact_us">Contact</a></p>
                     <p class="p-small">Copyright © <a href="<?php echo site_url('Home')?>">aey-group</a></p>
                 </div> 
                 
                 <div class="col-lg-12">
                     <p class="p-small">Distributed by :<a href="<?php echo site_url('Home')?>">AEY GROUP</a></p>
-                </div> <<!-- end of col -->
+                </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
+<<<<<<< HEAD
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
@@ -109,6 +110,9 @@
     </button>
     <!-- end of back to top button -->
     	
+=======
+    
+>>>>>>> master
     <!-- Scripts -->
     <script src="<?php echo base_url(); ?>resources/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="<?php echo base_url(); ?>resources/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
