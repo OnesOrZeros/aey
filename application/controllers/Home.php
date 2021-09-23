@@ -69,46 +69,48 @@ class Home extends CI_Controller {
 
 	public function sendcontactmail()
 	{
-//$to = "info@finsys-group.com";
-        $to = "kiplingmarich@gmail.com";
+		//$to = "info@finsys-group.com";
 		//$from = "comms@finsys-group.com";
-		$from = "kelvinkiprotich45@gmail.com";
-		$title = "INQUIRY FROM: ";
-
-		$name = $this->input->post("name");
-		$email = $this->input->post("email");
-		$mobile = $this->input->post("mobile");
-		$text = $this->input->post("message");
-
-		$this->load->library('email');
-
-		$config['protocol'] = 'smtp';
-        $config['smtp_crypto'] = 'tls';
-        $config['smtp_host'] = 'smtp.gmail.com';    
-        $config['smtp_port'] = '587';
-
 		//$config['protocol'] = 'smtp';
 		//$config['smtp_host'] = 'finsys-group.com';
 		//$config['smtp_port'] = '465';
-		$config['smtp_user'] = $from;
-		$config['smtp_pass'] = 'H@|<ing is H@|<ing';
 		//$config['smtp_crypto'] = 'ssl';
+				
+		$from = 'info@callmetron.com';
+		$to='kiplingmarich@gmail.com';
+		
+		$name = $this->input->post("name");
+		$email = $this->input->post("email");
+		$mobile = $this->input->post("mobile");
+		$text = $this->input->post("message");		
+
+		$config['protocol'] = 'smtp';
+		$config['smtp_host'] = 'www.callmetron.com';
+		$config['smtp_port'] = '465';
+		$config['smtp_user'] = $from;
+		$config['smtp_pass'] = 'Tuende2020**';
+		$config['smtp_crypto'] = 'ssl';
 		$config['charset'] = 'iso-8859-1';
 		$config['wordwrap'] = TRUE;
-				
+		$headers = 'MIME-Version: 1.0' . "\r\n";
+		//$headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+		$this->load->library('email');
 		$this->email->initialize($config);
 		$this->email->set_newline("\r\n");
 		$this->email->set_mailtype("html");
 		$this->email->from($email);
 		$this->email->to($to);
-		$this->email->subject($title. " ". $name);
-		$this->email->message('
-		<table style="width: 100%">
-			<tr><td>User Name: ' . $name .'</td></tr>
-			<tr><td>User Email: ' . $email . '</td></tr>
-			<tr><td>User Mobile: ' . $mobile . '</td></tr>
-			<tr><td>User Message: ' . $text . '</td></tr>
-		</table>');
+		$this->email->subject($subject);
+		$this->email->message ('<table style="width:100%">
+        <tr>
+            <td>User Name: ' . $name . '</td>
+        </tr>
+        <tr><td>User Email: ' . $email . '</td></tr>
+        <tr><td>User Phonenumber: ' . $mobile . '</td></tr>
+        <tr><td>Message: ' . $text . '</td></tr>
+        
+    </table>');
 
 
 		try{
