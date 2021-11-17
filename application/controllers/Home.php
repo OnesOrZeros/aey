@@ -57,11 +57,11 @@ class Home extends CI_Controller {
 			if($this->form_validation->run() === FALSE){
 				$this->load->view('site', $data);	
 			}else{
-				$this->contact_model->add_contact();
+				//$this->contact_model->add_contact();
 				
 				// Set  message
-				$this->session->set_flashdata('added_contact', 'You have sent your message successfully');
-				redirect('home');
+				//$this->session->set_flashdata('added_contact', 'You have sent your message successfully');
+				redirect('404_page');
 			}	
 		
 	}
